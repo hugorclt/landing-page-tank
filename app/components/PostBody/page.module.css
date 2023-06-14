@@ -1,0 +1,16 @@
+.postBodyContainer {
+  padding-top: 28px;
+  padding-bottom: 140px;
+}
+
+@media screen and (max-width: 991px) {
+  .postBodyContainer {
+    padding-bottom: 112px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .postBodyContainer {
+    padding-bottom: 84px;
+  }
+}

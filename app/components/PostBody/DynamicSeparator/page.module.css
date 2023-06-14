@@ -1,0 +1,56 @@
+.dynamicContainer {
+  padding-left: 0;
+  padding-right: 0;
+  padding: 140px;
+  padding-bottom: 140px;
+  overflow: hidden;
+  width: 100vw;
+}
+
+.infiniteText {
+  color: #dde0e3;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+  -webkit-animation: scrolling-left1 20s linear infinite;
+  animation: scrolling-left1 20s linear infinite;
+}
+
+.infiniteTextDelay {
+  transform: translateX(100%);
+  animation-delay: 10s;
+}
+
+@keyframes scrolling-left1 {
+  0% {
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@-webkit-keyframes scrolling-left1 {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .dynamicContainer {
+    padding-top: 112px;
+    padding-bottom: 112px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dynamicContainer {
+    padding-top: 84px;
+    padding-bottom: 84px;
+  }
+}

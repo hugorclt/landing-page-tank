@@ -2,7 +2,7 @@ import styles from "./page.module.css";
 
 export default function ToolKit() {
   return (
-    <div className={styles.toolKitContainer}>
+    <section className={styles.toolKitContainer}>
       <div className={styles.toolKitInner}>
         <div className={styles.toolKitGrid}>
           <div className={`${styles.leftSide}`}>
@@ -22,6 +22,6 @@ export default function ToolKit() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
