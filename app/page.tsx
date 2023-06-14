@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/Navbar'
 import HeroBanner from './components/HeroBanner/HeroBanner'
 import HomeBody from './components/HomeBody/HomeBody'
 import PostBody from './components/PostBody/PostBody'
+import Footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HeroBanner />
       <HomeBody />
       <PostBody />
+      <Footer />
     </main>
   )
 }
