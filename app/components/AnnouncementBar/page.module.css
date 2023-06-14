@@ -1,0 +1,15 @@
+.announcementBar {
+	background-color: var(--c-secondary);
+	display: flex;
+	justify-content: center;
+	padding: 21px 24px;
+
+}
+
+.announcementBar a {
+	text-decoration: none;
+	color: var(--c-primary);
+	font-weight: 300;
+	box-sizing: border-box;
+}
+

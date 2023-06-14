@@ -1,0 +1,125 @@
+.candidateWrapper {
+  background-image: linear-gradient(#fff, #f9f9f9);
+  margin-bottom: 160px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .candidateWrapper {
+    margin-bottom: 60px;
+  }
+}
+
+.candidateTitle {
+  max-width: 940px;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.candidateTitle h2 {
+  letter-spacing: -0.01em;
+  margin-top: 0;
+  margin-bottom: 21px;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+@media screen and (max-width: 991px) {
+  .candidateTitle h2 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .candidateTitle h2 {
+    letter-spacing: 0;
+    margin-bottom: 14px;
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+
+.candidateTitle p {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 46px;
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 767px) {
+  .candidateTitle p {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+.candidateImg {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.candidateImg img {
+  max-width: 100%;
+  object-fit: cover;
+  display: inline-block;
+  vertical-align: middle;
+  border: 0;
+  box-sizing: border-box;
+}
+
+.candidateHolder {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.candidateHolderSubTitle {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 46px;
+  margin-bottom: 28px;
+  margin-top: 0;
+  box-sizing: border-box;
+}
+
+.candidateParagraph {
+  margin-bottom: 30px;
+  margin-top: 0;
+  box-sizing: border-box;
+  color: #292f36;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 991px) {
+  .candidateParagraph {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.candidateButton {
+  text-align: center;
+  background-color: #12151b;
+  border: 2px solid #12151b;
+  border-radius: 12px;
+  padding: 18px 43px;
+  font-size: 22px;
+  line-height: 1;
+  transition: all 0.5s;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  box-sizing: border-box;
+}
