@@ -1,6 +1,7 @@
 import Candidates from "./Candidates/Candidates";
 import Customer from "./Customers/Customer";
 import FindPeople from "./FindPeople/FindPeople";
+import Person from "./Person/Person";
 import Simplify from "./Simplify/Simplify";
 import Solutions from "./Solutions/Solutions";
 import styles from "./page.module.css";
@@ -15,6 +16,7 @@ export default function HomeBody() {
       </div>
       <Simplify />
       <Solutions />
+      <Person />
 
     </section>
   );

@@ -1,0 +1,50 @@
+.personContainer {
+  background-color: #f7f7f7;
+  background-image: url("https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d29be46cd0be35bf900_perfect-person-image.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  padding-left: 100px;
+}
+
+.personInner {
+	width: 37%;
+}
+
+@media screen and (max-width: 991px) {
+  .personContainer {
+    background-position: 0%;
+    margin-bottom: 80px;
+    padding: 60px;
+  }
+
+  .personInner {
+	width: 70%;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .personContainer {
+    margin-bottom: 60px;
+    padding: 40px;
+  }
+
+  .personInner {
+	width: 85%;
+}
+}
+
+@media screen and (max-width: 479px) {
+  .personContainer {
+    margin-bottom: 40px;
+    padding: 20px;
+  }
+
+  .personInner {
+	width: 100%;
+  }
+}
