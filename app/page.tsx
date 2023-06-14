@@ -4,6 +4,7 @@ import AnnouncementBar from './components/AnnouncementBar/AnnouncementBar'
 import NavBar from './components/NavBar/Navbar'
 import HeroBanner from './components/HeroBanner/HeroBanner'
 import HomeBody from './components/HomeBody/HomeBody'
+import PostBody from './components/PostBody/PostBody'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <HeroBanner />
       <HomeBody />
+      <PostBody />
     </main>
   )
 }
