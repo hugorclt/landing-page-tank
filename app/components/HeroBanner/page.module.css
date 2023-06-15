@@ -62,7 +62,6 @@
   }
 
   .heroMainButton {
-    margin-right: 8px;
     border-radius: 16px;
     font-size: 24px;
   }
@@ -91,17 +90,28 @@
 }
 
 .heroMainButton {
-  box-sizing: border-box;
-  color: var(--c-primary);
-  text-decoration: none;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
+  color: #fff;
   text-align: center;
-  font-size: 20px;
-  line-height: 28px;
-  padding: 32px 28px;
-  transition: all 0.2s;
+  background-color: #3d3d3d;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  padding: 18px 28px 16px;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  font-weight: 600;
+  transition: transform 0.2s;
+  display: flex;
+  box-shadow: 0 7px 21px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.buttonText {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  line-height: 32px;
 }
 
 .heroMainButton:hover {
@@ -114,20 +124,21 @@
 }
 
 .secondaryButton {
-  box-sizing: border-box;
-  color: var(--c-secondary);
-  text-decoration: none;
-  font-weight: 600;
-  display: flex;
-  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: #292f36;
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
-  font-size: 20px;
-  line-height: 28px;
-  padding: 32px 28px;
-  border-radius: 7px;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  transition: transform 0.2s;
+  display: flex;
   box-shadow: 0 7px 21px rgba(0, 0, 0, 0.15);
-  transition: all 0.2s;
-  cursor: pointer;
+  margin-left: 21px;
 }
 
 .secondaryButton:hover {
