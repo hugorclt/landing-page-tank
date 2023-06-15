@@ -10,7 +10,7 @@ type TMissionProps = {
 };
 
 export default function MissionDisplay({ data }: TMissionProps) {
-  const [selected, setSelected] = useState(-1);
+  const [selected, setSelected] = useState(0);
 
   return (
     <div className={styles.missionContainer}>
