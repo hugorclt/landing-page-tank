@@ -21,18 +21,21 @@ export default function Simplify() {
         <div className={`${styles.cell} ${styles.cell2}`}>
           <img
             src={simplify1.src}
+            alt="simplify-1"
             className={styles.simplifyImage}
             loading="lazy"></img>
         </div>
         <div className={`${styles.cell} ${styles.rightImage}`}>
           <img
             src={simplify2.src}
+            alt="simplify-2"
             className={styles.simplifyImage}
             loading="lazy"></img>
         </div>
         <div className={`${styles.cell} ${styles.cell3}`}>
           <img
             src={simplify3.src}
+            alt="simplify-3"
             className={styles.simplifyImage}
             loading="lazy"></img>
         </div>
@@ -49,6 +52,7 @@ export default function Simplify() {
         <div className={`${styles.cell} ${styles.cell4}`}>
           <img
             src={simplify4.src}
+            alt="simplify-4"
             className={styles.simplifyImage}
             loading="lazy"></img>
         </div>

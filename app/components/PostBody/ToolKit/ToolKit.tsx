@@ -18,7 +18,7 @@ export default function ToolKit() {
             </div>
           </div>
           <div className={styles.rightSide}>
-            <img src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6482e505d0c1295fdfa4b955_%23C2BEBE%20(3).png"></img>
+            <img alt="toolkit" src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6482e505d0c1295fdfa4b955_%23C2BEBE%20(3).png"></img>
           </div>
         </div>
       </div>

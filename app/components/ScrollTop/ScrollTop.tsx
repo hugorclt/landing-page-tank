@@ -29,7 +29,7 @@ const ScrollTop = () => {
       className={styles.buttonScroll}
       onClick={scrollToTop}
       style={{ display: visible ? "flex" : "none" }}>
-      <img src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418b2_icon-dropdown-arrow-small-dark.svg" />
+      <img alt="up-arrow" src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418b2_icon-dropdown-arrow-small-dark.svg" />
     </div>
   );
 };

@@ -8,7 +8,7 @@ export default function Footer() {
         <div className={styles.innerFooter}>
           <div className={styles.headerFooter}>
             <a>
-              <img src="https://assets.website-files.com/6481fe5eec8eb229837417e3/64820b0cac461f5988ae6ade_tank-logo-light%201.png"></img>
+              <img src="https://assets.website-files.com/6481fe5eec8eb229837417e3/64820b0cac461f5988ae6ade_tank-logo-light%201.png" alt="tank-logo"></img>
             </a>
             <div>La plateforme de recrutement intelligente pour le médical</div>
             <Socials />
@@ -31,13 +31,13 @@ export default function Footer() {
               <div className={styles.contact}>
                 <a className="nav-link text-white">Contact</a>
                 <div className={styles.avatarGroup}>
-                  <img src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb2298374192c_avatar-04.jpg"></img>
+                  <img src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb2298374192c_avatar-04.jpg" alt="avatar-1"></img>
                   <img
                     className={styles.overlap}
-                    src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb2298374191c_avatar-01.jpg"></img>
+                    src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb2298374191c_avatar-01.jpg" alt="avatar-2"></img>
                   <img
                     className={styles.overlap}
-                    src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb2298374191d_avatar-02.jpg"></img>
+                    src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb2298374191d_avatar-02.jpg" at="avatar-3"></img>
                 </div>
               </div>
               <a className="nav-link text-white">Mention Legal</a>

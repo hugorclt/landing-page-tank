@@ -13,12 +13,12 @@ export default function Customer() {
 			<h5>Ils nous font déjà confiance</h5>
 		</div>
 		<div className={styles.gridCustomer}>
-			<img src={trust1.src}></img>
-			<img src={trust2.src}></img>
-			<img src={trust3.src}></img>
-			<img src={trust4.src}></img>
-			<img src={trust5.src}></img>
-			<img src={trust6.src}></img>
+			<img alt="truster-1" src={trust1.src}></img>
+			<img alt="truster-2" src={trust2.src}></img>
+			<img alt="truster-3" src={trust3.src}></img>
+			<img alt="truster-4" src={trust4.src}></img>
+			<img alt="truster-5" src={trust5.src}></img>
+			<img alt="truster-6" src={trust6.src}></img>
 		</div>
 	</section>
   )

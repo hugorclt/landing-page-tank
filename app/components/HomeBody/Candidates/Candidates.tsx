@@ -11,7 +11,11 @@ export default function Candidates() {
         </p>
       </div>
       <div className={styles.candidateImg}>
-        <img src={candidateImg.src} srcSet="https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d6d87163148c678422c_%23C2BEBE%20(2)-p-500.png 500w, https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d6d87163148c678422c_%23C2BEBE%20(2)-p-800.png 800w, https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d6d87163148c678422c_%23C2BEBE%20(2).png 920w" loading="lazy"></img>
+        <img
+          src={candidateImg.src}
+          alt="candidate"
+          srcSet="https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d6d87163148c678422c_%23C2BEBE%20(2)-p-500.png 500w, https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d6d87163148c678422c_%23C2BEBE%20(2)-p-800.png 800w, https://assets.website-files.com/6481fe5eec8eb229837417e3/64823d6d87163148c678422c_%23C2BEBE%20(2).png 920w"
+          loading="lazy"></img>
       </div>
       <div className={styles.candidateHolder}>
         <p className={styles.candidateHolderSubTitle}>

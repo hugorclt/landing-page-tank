@@ -10,7 +10,7 @@ export default function Socials() {
           className="social-link w-inline-block">
           <img
             src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418d5_icon-Twitter-white.svg"
-            alt=""
+            alt="twitter-icon"
           />
         </a>
         <a
@@ -19,7 +19,7 @@ export default function Socials() {
           className="social-link w-inline-block">
           <img
             src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418d0_icon-Instagram-white.svg"
-            alt=""
+            alt="instagram-icon"
           />
         </a>
         <a
@@ -28,7 +28,7 @@ export default function Socials() {
           className="social-link w-inline-block">
           <img
             src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418d7_icon-LinkedIn-white.svg"
-            alt=""
+            alt="linkedin-icon"
           />
         </a>
         <a
@@ -37,7 +37,7 @@ export default function Socials() {
           className="social-link w-inline-block">
           <img
             src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418d4_icon-YouTube-white.svg"
-            alt=""
+            alt="youtube-icon"
           />
         </a>
         <a
@@ -46,7 +46,7 @@ export default function Socials() {
           className="social-link w-inline-block">
           <img
             src="https://assets.website-files.com/6481fe5eec8eb229837417e3/6481fe5eec8eb229837418d1_icon-Dribbble-white.svg"
-            alt=""
+            alt="dribble-icon"
           />
         </a>
       </div>

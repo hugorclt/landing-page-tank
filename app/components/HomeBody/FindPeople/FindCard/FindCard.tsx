@@ -22,7 +22,7 @@ export default function FindCard({
   return (
     <div className={styles.findCardContainer} style={{flexDirection: isMirror ? "row-reverse" : "row"}}>
       <div className={`${isMirror ? styles.findImageMirror : styles.findImage}`}>
-        <img src={image}></img>
+        <img alt={title} src={image}></img>
       </div>
       <div className={`${isMirror ? styles.findTextMirror : styles.findText}`}>
         <h5 className={styles.findTitle}>{title}</h5>

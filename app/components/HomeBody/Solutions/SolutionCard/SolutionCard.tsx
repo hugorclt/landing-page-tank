@@ -10,7 +10,7 @@ export default function SolutionCard({icon, title, paragraph} : TSolutionCardPro
   return (
 	<div className={styles.solutionsCardContainer}>
 		<div>
-			<img className={styles.image} src={icon}></img>
+			<img alt={title} className={styles.image} src={icon}></img>
 			<p className={styles.title}>{title}</p>
 			<p className={styles.paragraph}>{paragraph}</p>
 		</div>
