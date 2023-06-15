@@ -10,8 +10,6 @@ import Footer from './components/Footer/Footer'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <AnnouncementBar />
-      <NavBar />
       <HeroBanner />
       <HomeBody />
       <PostBody />

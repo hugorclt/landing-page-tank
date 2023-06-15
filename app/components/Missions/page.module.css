@@ -1,0 +1,25 @@
+.missionContainer {
+  display: flex;
+  padding: 0 120px;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.cardContainer {
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px -8px rgba(0, 0, 0, 0.15);
+  margin: 6px 0;
+}
+
+.missionLeft {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  overflow: auto;
+}
+
+.missionRight {
+  flex: 1;
+  margin-left: 12px;
+}

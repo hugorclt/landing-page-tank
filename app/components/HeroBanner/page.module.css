@@ -8,7 +8,7 @@
     margin-bottom: 21px;
     font-weight: 600;
     font-size: 84px;
-    line-height: .9em;
+    line-height: 0.9em;
     text-align: center;
   }
 
@@ -64,13 +64,13 @@
   .heroMainButton {
     margin-right: 8px;
     border-radius: 16px;
-	font-size:24px;
+    font-size: 24px;
   }
 
   .secondaryButton {
     margin-left: 8px;
     border-radius: 16px;
-	font-size:24px;
+    font-size: 24px;
   }
 }
 
@@ -101,6 +101,11 @@
   font-size: 20px;
   line-height: 28px;
   padding: 32px 28px;
+  transition: all 0.2s;
+}
+
+.heroMainButton:hover {
+  scale: 1.05;
 }
 
 .heroMainButton a {
@@ -121,6 +126,12 @@
   padding: 32px 28px;
   border-radius: 7px;
   box-shadow: 0 7px 21px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.secondaryButton:hover {
+  scale: 1.05;
 }
 
 .secondaryButton a {

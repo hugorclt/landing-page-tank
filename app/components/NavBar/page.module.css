@@ -2,7 +2,6 @@
   margin-bottom: 28px;
   padding: 0px 28px;
   box-sizing: border-box;
-  position: sticky;
 }
 
 .navbarRow {
@@ -38,6 +37,10 @@
   transition: all 0.2s;
 }
 
+.buttonWrapper {
+  transition: all 0.2s;
+}
+
 .navbarLinks a:hover {
   color: var(--c-link-hover);
 }
@@ -52,6 +55,10 @@
   .buttonWrapper {
     display: none;
   }
+}
+
+.buttonWrapper:hover {
+  scale: 1.05;
 }
 
 .buttonWrapper a {
@@ -117,7 +124,9 @@
 }
 
 .sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+}

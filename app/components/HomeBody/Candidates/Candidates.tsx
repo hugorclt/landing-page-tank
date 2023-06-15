@@ -18,7 +18,7 @@ export default function Candidates() {
           Tank le partenaire pour un recrutement intelligent
         </p>
         <p className={styles.candidateParagraph}>Créer votre compte en 2 mn</p>
-        <a className={styles.candidateButton}>Commencer</a>
+        <a className="button-black">Commencer</a>
       </div>
     </div>
   );

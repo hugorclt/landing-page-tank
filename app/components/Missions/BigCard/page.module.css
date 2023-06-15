@@ -1,0 +1,21 @@
+.cardContainer {
+  padding: 24px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px -8px rgba(0, 0, 0, 0.15);
+  margin: 6px 0;
+}
+
+.subtitle {
+	display: flex;
+	justify-content: space-between;
+}
+
+.subtitle p {
+	margin-bottom: 16px;
+}
+
+.button {
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 16px;
+}

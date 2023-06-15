@@ -1,3 +1,4 @@
+import Annonce from "./Annonce/Annonce";
 import Candidates from "./Candidates/Candidates";
 import Customer from "./Customers/Customer";
 import FindPeople from "./FindPeople/FindPeople";
@@ -17,6 +18,7 @@ export default function HomeBody() {
       <Simplify />
       <Solutions />
       <Person />
+      <Annonce />
 
     </section>
   );

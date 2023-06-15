@@ -7,20 +7,27 @@ import { useEffect, useRef, useState } from "react";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isSticky, setSticky] = useState(false);
-  const navBarRef = useRef<HTMLDivElement | null>(null);
+  const [isSticky, setIsSticky] = useState(false);
+  const navbarRef = useRef<HTMLDivElement | null>(null);
 
-//   useEffect(() => {
-// 	console.log(window.scrollY);
-// 	if (window.scrollY >= navBarRef.current!.offsetTop) {
-// 		setSticky(true);
-// 	} else
-// 		setSticky(false);
-//   }, [window.scrollY])
+  useEffect(() => {
+    window.addEventListener("scroll", stickNavbar);
+
+    return () => {
+      window.removeEventListener("scroll", stickNavbar);
+    };
+  }, []);
+
+  const stickNavbar = () => {
+    if (window !== undefined) {
+      let windowHeight = window.scrollY;
+      windowHeight > navbarRef.current!.offsetTop ? setIsSticky(true) : setIsSticky(false);
+    }
+  };
 
   return (
-    <div>
-      <div ref={navBarRef} className={styles.navbarContainer}>
+    <div ref={navbarRef} className={isSticky ? styles.sticky : ""}>
+      <div className={styles.navbarContainer}>
         <div className={styles.navbarRow}>
           <div className={styles.navbarLeft}>
             <a href="/" aria-current="page">
@@ -47,7 +54,7 @@ export default function NavBar() {
         </div>
       </div>
       {isOpen && (
-        <div className={`${styles.dropDown} ${isSticky ? styles.sticky : ""}`}>
+        <div className={`${styles.dropDown}`}>
           <nav>
             <a href="/">Établissement</a>
             <a href="/">Candidat</a>
