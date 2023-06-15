@@ -14,8 +14,16 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  animation: scrolling-up 0.3s linear;
 }
 
 .buttonScroll img {
   transform: rotateX(180deg);
+}
+
+@keyframes scrolling-up {
+  0% {
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+  }
 }

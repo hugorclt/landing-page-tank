@@ -35,12 +35,14 @@ export default function NavBar() {
             </a>
             <nav className={styles.navbarLinks}>
               <a href="/">Établissement</a>
+              <div className={styles.separator}></div>
               <a href="/">Candidat</a>
+              <div className={styles.separator}></div>
               <a href="/">Blog</a>
             </nav>
           </div>
           <div className={styles.navbarRight}>
-            <div className={`${styles.buttonWrapper} button-small`}>
+            <div className={`${styles.buttonWrapper}`}>
               <a href="https://app.tankyou.care" target="_blank">
                 Commencer
               </a>
