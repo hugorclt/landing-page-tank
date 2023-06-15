@@ -1,7 +1,7 @@
 .missionContainer {
   display: flex;
   padding: 0 120px;
-  height: 100vh;
+  height: calc(100vh - 170px);
   box-sizing: border-box;
 }
 

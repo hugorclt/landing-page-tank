@@ -6,7 +6,7 @@ import simplify4 from "@/public/simplify4.png";
 
 export default function Simplify() {
   return (
-    <div className={styles.simplifyContainer}>
+    <section className={styles.simplifyContainer}>
       <div className={styles.simplifyText}>
         <h2>Simplifiez vos process de remplacement</h2>
       </div>
@@ -53,15 +53,15 @@ export default function Simplify() {
             loading="lazy"></img>
         </div>
       </div>
-	  <div className="center">
-		<p className="paragraph-big">Prêt à lancé votre première mission ?</p>
-		<div className={styles.simplifyButtonContainer}>
-			<a className="purple-button w-button">S'inscrire</a>
-			<a className="white-button">
-				<div className="white-button-text-wrapper">En savoir plus</div>
-			</a>
-		</div>
-	  </div>
-    </div>
+      <div className="center">
+        <p className="paragraph-big">Prêt à lancé votre première mission ?</p>
+        <div className={styles.simplifyButtonContainer}>
+          <a className="purple-button w-button">S'inscrire</a>
+          <a className="white-button">
+            <div className="white-button-text-wrapper">En savoir plus</div>
+          </a>
+        </div>
+      </div>
+    </section>
   );
 }

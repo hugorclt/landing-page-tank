@@ -3,7 +3,7 @@ import candidateImg from "@/public/candidate.png";
 
 export default function Candidates() {
   return (
-    <div className={styles.candidateWrapper}>
+    <section className={styles.candidateWrapper}>
       <div className="center">
         <h2>Plus de candidats moins d'effort</h2>
         <p className="paragraph-big">
@@ -20,6 +20,6 @@ export default function Candidates() {
         <p className={styles.candidateParagraph}>Créer votre compte en 2 mn</p>
         <a className="button-black">Commencer</a>
       </div>
-    </div>
+    </section>
   );
 }

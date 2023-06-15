@@ -8,7 +8,7 @@ import trust6 from '@/public/trust6.png'
 
 export default function Customer() {
   return (
-	<div className={styles.customerContainer}>
+	<section className={styles.customerContainer}>
 		<div className={styles.customerHeading}>
 			<h5>Ils nous font déjà confiance</h5>
 		</div>
@@ -20,6 +20,6 @@ export default function Customer() {
 			<img src={trust5.src}></img>
 			<img src={trust6.src}></img>
 		</div>
-	</div>
+	</section>
   )
 }

@@ -61,7 +61,7 @@ const data = [
 
 export default function FindPeople() {
   return (
-	<div className={styles.findPeopleContainer}>
+	<section className={styles.findPeopleContainer}>
 		<div className="center">
 			<h2>Trouver la bonne personne au bon moment </h2>
 			<p className='paragraph-big'>Construisons ensemble la nouvelle expérience au travail</p>
@@ -75,6 +75,6 @@ export default function FindPeople() {
 				<FindCard key={card.number} {...card} isMirror={isMirror} />
 			)
 		})}
-	</div>
+	</section>
   )
 }
