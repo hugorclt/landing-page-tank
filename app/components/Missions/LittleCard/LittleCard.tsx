@@ -35,7 +35,7 @@ export default function LittleCard({
           du {dateStart} au {dateEnd}
         </p>
       </div>
-      <p>{description}</p>
+      <p>{description.substring(0, 100).concat("...")}</p>
       <p className="small-text muted-text">Publié il y a {getDayEllapsed()} jours</p>
     </>
   );
